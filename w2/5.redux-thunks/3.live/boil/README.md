@@ -1,21 +1,14 @@
-### Redux-Thunk
-
-Redux Thunk is a middleware used in Redux to handle async requests
-
-### Itenary
-
-- applyMiddleware
-  - logger
-- async actions
-  - how to handle them in redux
-  - redux-thunk
+### Instructions to follow before Starting class:
 
 ### Getting started
 
-- `cd boil`
-- `npm i redux react-redux redux-thunk`
+- `npm i `
 - `json-server --watch db.json --port 8080`
 - in second terminal: `npm start`
+
+## Note:
+
+- Go through the code to understand the structure.
 
 ### Goal
 
