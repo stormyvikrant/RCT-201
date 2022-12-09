@@ -1,3 +1,5 @@
+
+let random=0
 export const incrementValue = (currentValue) => {
   for (let i = 0; i < 500000000; i++) {
     random += 1;

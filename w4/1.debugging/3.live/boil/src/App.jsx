@@ -9,13 +9,17 @@ function App() {
   const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
-    setCount(decrementValue(count));
+    let a=incrementValue(count)
+    console.log(a)
+    setCount(a)
   };
   const handleDecrement = () => {
     for (let i = 0; i < 500000000; i++) {
       random += 1;
     }
-    setCount(decrementValue(count));
+    let b=decrementValue(count);
+    console.log(b)
+    setCount(b)
   };
   return (
     <div className="App">
